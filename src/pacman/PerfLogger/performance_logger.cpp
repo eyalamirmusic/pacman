@@ -3,8 +3,7 @@
 PerfLogger *PerfLogger::instance = nullptr;
 
 PerfLogger::PerfLogger() { 
-    start_times = {};
-    durations = {};
+
 }
 PerfLogger::~PerfLogger() { /* nothing to do here */ }
 
